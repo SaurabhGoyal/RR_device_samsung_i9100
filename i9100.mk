@@ -22,10 +22,9 @@ LOCAL_PATH := device/samsung/i9100
 # Overlay
 DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
 
-# This device is hdpi.
-PRODUCT_AAPT_CONFIG := normal xhdpi
+# This device is xhdpi.
+PRODUCT_AAPT_CONFIG := normal hdpi xhdpi
 PRODUCT_AAPT_PREF_CONFIG := xhdpi
-PRODUCT_LOCALES += xhdpi
 
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.sf.lcd_density=240

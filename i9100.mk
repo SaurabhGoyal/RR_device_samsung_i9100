@@ -32,7 +32,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 # Packages
 PRODUCT_PACKAGES += \
-    DeviceSettings
+    GalaxyS2Settings
 
 # Sensors
 PRODUCT_PACKAGES += \
